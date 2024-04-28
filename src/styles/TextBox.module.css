@@ -1,0 +1,22 @@
+.textbox {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  height: 200px;
+  transition: 0.2s background-color;
+}
+
+.textbox > textarea {
+  border: solid 10px black;
+  box-sizing:content-box;
+  background: rgb(28, 28, 28);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  transition: 0.2s background-color;
+}
+
+.textbox:hover > textarea, .textbox > textarea:focus {
+  background-color: rgb(57, 57, 57);
+}
